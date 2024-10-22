@@ -17,5 +17,25 @@
     --decorative-bg: #FF8DCB;
     --hover-color: rgb(50, 49, 45, 0.4);;
     --bg-image: url("../images/cover-image-light.png");
-    --font-family: 'IBM Plex Mono', monospace;
+}
+
+.theme_light .element-rec {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #FFF1F7;
+    --header-color: #FFC2E6;
+    --main-text-color: #353430;
+    --accent-color: #353430;
+    --text-on-background: #353430;
+    --decorative-bg: #FF8DCB;
+    --hover-color: rgb(50, 49, 45, 0.4);;
+    --bg-image: url("../images/cover-image-light.png");
+  }
+
+  .element-rec {
+    display: none;
+  }
 }
