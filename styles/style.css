@@ -310,7 +310,7 @@
     flex-direction: column;
   }
 
-  .header-content {
+  .header__content {
     max-inline-size: 364px;
   }
 
